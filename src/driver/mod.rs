@@ -7,7 +7,7 @@
 //! This splits up work according to its IO/compute bound nature, preventing packet
 //! generation from being slowed down past its deadline, or from affecting other
 //! asynchronous tasks your bot must handle.
-
+#![allow(unused_imports)]
 #[cfg(feature = "internals")]
 pub mod bench_internals;
 
